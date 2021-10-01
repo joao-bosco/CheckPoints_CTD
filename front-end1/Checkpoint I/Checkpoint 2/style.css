@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+form {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    gap: 12px;
+}
+
+.idade {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 4px;
+}
+
+#option2 {
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 14px;
+    background-color: rgba(239, 239, 239, 0.7);
+    padding: 12px;
+    border-radius: 6px;
+    border: #F23545 solid 2px;    
+}
+
+body {
+    background-image: url(https://www.cvc.com.br/dicas-de-viagem/wp-content/uploads/2020/01/MASP.jpg) ;
+    background-repeat: repeat-y;
+    background-size: cover;  
+}
+
+legend {
+    padding: 0 8px;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 10px;
+    background-color: rgba(239, 239, 239, 0.7);
+    border: #F23545 2px solid;
+    border-radius: 6px;
+}
+
+div {
+    margin: 8px;
+    font-weight: bold;
+}
+
+fieldset {
+    border: solid 2px #F23545    ;
+    background-color: rgba(239, 239, 239, 0.7);
+    border-radius: 6px;
+}
+
+#name, #email {
+    width: 100%;
+    height: 30px;
+    padding-left: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+#contato, #birthDate, #interesse {
+    height: 30px;
+    padding-left: 12px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border: solid 2px #F23545    ;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
+    transition-duration: 0.8s;
+}
+
+h4 {
+    margin-bottom: 8px;
+}
+
+.relacao {
+    margin-right: 12px;
+}
+
+input:hover {
+    transform: scale(1.025);
+    transition: ease-in-out 0.5s;    
+}
+
+select:hover {
+    transform: scale(1.025);
+    transition: ease-in-out 0.5s;    
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;  
+    transition: ease-in-out 0.5s;  
+    filter: brightness(1.1);  
+}
+
+input, select {
+    transition-duration: 0.8s;
+}
+
+
+
+
+
