@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&family=Roboto+Condensed:wght@300&display=swap');
+
+
+/*Tipos de fontes
+    font-family: 'Allison', cursive; /Texto estilizado/
+    font-family: 'Anton', sans-serif; /Título/
+    font-family: 'Source Serif Pro', serif; /Texto simples/
+    font-family: 'Roboto Condensed', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body{
+    /* width: 100vh; */
+    background-color: azure;
+}
+
+header{
+   
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+      
+}
+
+header h1{
+    position: fixed;
+    font-size: 80px;
+    padding: 40px;
+    width: 100%;
+    color: black;
+    background-color: rgba(245, 245, 245, 0.603);
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    top: 5%;
+    z-index: 10;
+        
+}
+
+header img{
+    width: 100%;
+    height: 300px;
+    top: 0;
+    z-index: 10;
+}
+
+main{
+    position: absolute;
+    top: 300px;
+    /* top: calc(100vh - 600px); */
+    margin: 10px;
+    z-index: 0;
+    /* width: 100vh; */
+}
+
+h3{
+    margin: 0px 20px;
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+p{
+    margin-top: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 20px; /*aumenta o espaçamento*/
+}
+
+.destaque{
+    font: bolder;
+}
+
+.curiosidades{
+    text-align: left;
+    font-size: 25px;
+}
+
+/* a{
+    text-decoration: none;
+} */
+
+ul{
+    padding: 0px 30px;
+    /* list-style: none; */
+    font-size: 20px;
+    cursor:pointer;
+}
+
+
+iframe{
+    width: 1280px;
+    height: 720px;
+    margin-left: 15%;
+}
+
+.maps{
+
+    position: fixed;
+    display: block;
+    height: 60px;
+    width: 60px;
+    bottom: 50px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 150;
+    transition: ease-in-out .5s;
+    
+    
+    }
+    
+.maps:hover{
+    transform: scale(1.08);
+    filter:brightness(110%);
+    
+    }
+
+footer{
+    position: absolute;
+    top: 300px;
+    background-color: #13261A;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    top: 1700px;
+    z-index: 0;
+    
+        
+}
+
+.imgFooter{
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+    margin: 0px 15px;
+    box-sizing: border-box;
+    transition: ease-in-out .5s;
+    
+}
+
+.imgFooter:hover{
+    transform: scale(1.08);
+    filter:brightness(110%);
+}
+
+
+
+
