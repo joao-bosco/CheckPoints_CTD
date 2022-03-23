@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Galeria de Fotos - Checkpoint 01</title>
+</head>
+
+<body>
+
+
+  <form class="container">
+    <header>
+      <h1 class="title">Galeria de fotos</h1>
+    </header>
+    <div class="perguntas">
+      <div class="box">
+
+        <div class="campoInput">
+          <label for="titulo"> Informe o carro:</label>
+          <input type="text" id="titulo" required>
+        </div>
+        <div class="campoInput">
+          <label for="categoria">Estilos de Carros: </label>
+          <select name="categoria" id="categoria">
+            <option value="" selected disabled>Selecione uma opção</option>
+            <option value="Sedan">Sedan</option>
+            <option value=" Hatch"> Hatch</option>
+            <option value="Picape">Picape</option>
+            <option value="UtilitarioEsportivo (SUV)">Utilitário Esportivo (SUV)</option>
+          </select>
+        </div>
+
+        <div class="campoInput">
+          <label for="img">URL da Imagem:</label>
+          <input type="text" id="img" required>
+        </div>
+        <div class="campoInput">
+          <label for="descricao">Descrição:</label>
+          <input type="text" id="descricao" required>
+        </div>
+
+
+        <div class="botao">
+          <button id="limpar">Limpar</button>
+          <button id="salvar">Salvar</button>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="campoInput">
+
+      </div>
+      <div class="campoInput">
+
+      </div>
+    </div>
+
+    </div>
+  </form>
+
+  <div class="print">
+    <div class="item">
+      <img src="https://seminovos.unidas.com.br/blog/content/uploads/2021/06/hatch.jpg">
+
+      <h3>Gol<h3>
+          <h4>Estilo: Hatch<h4>
+              <p>
+                É comum que determinados modelos tenham duas versões: sedan e hatch. A primeira, como já demonstrado,
+                oferece uma versatilidade maior, enquanto a segunda é mais enxuta, sendo ideal para solteiros ou
+                famílias
+                pequenas, que não exigem muito espaço para as bagagens.
+
+                É importante saber que essas duas categorias guardam algumas versões, que é a segmentação em veículos
+                compactos e médios, e o tamanho tende a ser proporcional ao preço: os compactos são os veículos de
+                entrada,
+                mais baratos, enquanto os médios são maiores, contam com mais equipamentos e são naturalmente mais
+                caros.
+              </p>
+
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+
+
+</body>
+
+</html>
